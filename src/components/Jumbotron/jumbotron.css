@@ -1,0 +1,22 @@
+.jumbotron {
+    background-color: rgb(118, 95, 119);
+    width: 100%;
+    height:300px;
+    padding-bottom: 25px;
+}
+
+
+.display-4 {
+color: orangered;
+font-weight: bolder;
+text-align: center;
+font-size: 45px;
+margin-top: 35px;
+}
+
+p {
+color: orangered;
+font-weight: bolder;
+text-align: center;
+font-size: 25px;
+}
