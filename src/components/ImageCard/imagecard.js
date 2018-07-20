@@ -1,10 +1,14 @@
 import React from "react";
 import "./imagecard.css";
 
-const ImageCard = props => (
 
-    <div className="card" >
-        <img className="card-img" src="https://wallpaperbrowse.com/media/images/4372773-cartoon-images.jpg" alt="Card image" />
+const ImageCard = props => (
+    <div className="card">
+        {props.image.map(image => (
+            <div className="img-container" key={image.id}>
+                <img src={props.image} />
+            </div>
+        ))}
     </div>
 );
 
